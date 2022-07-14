@@ -6,7 +6,18 @@
 \include "ees.ly"
 
 
+tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
+
+
+rip = \markup \remark "Rip."
+ripE = \markup \remarkE "Rip."
+
+
 tempoKyrie = \tempoMarkup "Largo"
+  tempoChriste = \tempoMarkup "Andante"
+  tempoChristeB = \tempoMarkup "Adagio"
+tempoKyrieB = \tempoMarkup "A capella · Allegro"
+tempoKyrieC = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"
