@@ -211,3 +211,162 @@ GloriaTenoreLyrics = \lyricmode {
   men, a -- men, a --
   men. %74 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 3/2 \autoBeamOff \tempoCredo
+      \set Staff.timeSignatureFraction = 3/2
+    \mvTr a2\fE^\tutti a c h r4 h h h
+    c2 c4 c e c f1 e2
+    e e( f) h, e e
+    e d4 d d4. d8 c2 r c4 h
+    c h h2. h4 c2 c4 c a a %5
+    c2 c4 c a2 c c( d)
+    g, c4. c8 a2 a2. a4 g2
+    g g2. g4 g2 \mvTr c\pE^\solo d
+    e1 f2~ f d1
+    c2 c h a2. h4 c2~ %10
+    c h2. h4 e,2 e' d4. d8
+    c2 c r r c d
+    h h4. h8 a2 a a2.( gis4)
+    a2 \mvTr a4\fE^\tutti c a a c c f f e4. e8
+    e1 f2~ f f2.( e4) %15
+    f2 c e a,2. a4 a2~ \noBreak
+    \tempoFacta a a2. gis4 a1.\fermata \bar "||"
+    \time 4/4 \tempoQuiPropter \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*10 %27
+    r2 \tempoCrucifixus \mvTr a4.\pE^\solo a8
+    f'2 gis,
+    a8. a16 a8 a a4 gis8 gis %30
+    c8. c16 c8 c h4 h
+    h a dis2
+    e4 d c8 e, a([ g!]
+    f4.) f8 e2
+    R1 %35
+    r8 \tempoEtResurrexit \mvTr e'\fE^\tutti f8. f16 e8 e r4
+    r8 e f8. f16 e8 e c a16 a
+    g8 g c4^\critnote e8([ d)] e c
+    d d r4 r2
+    R1*4 %43
+    R1\fermata
+    \tempoEtMortuos R1 %45
+    r2 r4\fermata \tempoCuius r
+    R1
+    r4 \mvTr e8\pE^\solo e c h16 c a8 d
+    g, g16 g r4 r2
+    r8 e'4 e8 e e d d16 d %50
+    d8 c16([ h)] a4 gis8 \mvTr e'4\fE^\tutti e8
+    e4 h8 a a a16 a d8. d16
+    c8 c4 h8 c h c4
+    h8 h h gis a a a([ d)]
+    g,! r r4 r c8 h %55
+    h2 c8 \mvTr c\pE^\solo c c
+    d4 c8 c c8. c16 c8 c
+    f d e8. e16 d8 e c8. c16
+    h4 r r2
+    R1 %60
+    r2 r8 \mvTr h4\fE^\tutti c8
+    h h e e e e e16 e e e
+    e^\critnote e e e a,8. a16 gis8 gis r4\fermata
+    \tempoMortuorum a4.\p a8 h2
+    e,8 \tempoEtVitam r r a( h[ c d e)] %65
+    a,4 r r2
+    r4 r8 h( a[ h c a])
+    h4 r8 e( c[ d16 c] h8[ e])
+    a, a c4 h8 a a gis
+    a16([ gis a h] c[ h c a] e'8) e16 e e8 dis %70
+    e h r h a h([ c h)]
+    h4 r8 h e4 r8 e
+    c[ d16 c] h8[ e] a,16[ h a c] d[ c h d]
+    c8 a r a( h[ c d e)]
+    a,4 r8 e' e e16 e a,8 d %75
+    e e16 e d8([ e)] e e([ c f)]
+    h, e e d16 d cis8 d e e16 e
+    f8 d r d( c[ d16 c] h8[ e])
+    a, c e4 d8 c h h
+    c16([ h c d] e[ d e c] f8) f16 f f8 d %80
+    d c h([ c)] h4 r8 e
+    e2 e4. e8
+    e4. e8 e4 e8 e
+    e2 f
+    e( d8[ c] h4) %85
+    c e-! e-! e-!
+    e-! r r2\fermata \bar "|." %87 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- trem, Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem coe -- li
+  et ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- um et in --
+  vi -- si -- bi -- li -- um. Et in u -- num %5
+  Do -- mi -- num Je -- sum Chri --
+  stum, Fi -- li -- um De -- i u --
+  ni -- ge -- ni -- tum. Et ex
+  Pa -- tre __ na --
+  tum an -- te o -- mni -- a __ %10
+  sae -- cu -- la, De -- um de
+  De -- o, De -- um
+  ve -- rum de De -- o ve --
+  ro. Ge -- ni -- tum non fa -- ctum, con -- sub -- stan -- ti --
+  a -- lem __ Pa -- %15
+  tri, per quem o -- mni -- a __
+  fa -- cta sunt.
+
+  Cru -- ci -- %28
+  fi -- xus
+  e -- ti -- am pro no -- bis sub %30
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- _ _
+  _ sus et se -- pul --
+  tus est.
+
+  Et re -- sur -- re -- xit, %36
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras.
+
+  Et in Spi -- ri -- tum San -- ctum, %48
+  Do -- mi -- num,
+  qui ex Pa -- tre Fi -- li -- o -- %50
+  que pro -- ce -- dit. Qui cum
+  Pa -- tre, cum Pa -- tre et Fi -- li --
+  o si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur: per Pro -- %55
+  phe -- tas. Et u -- nam
+  san -- ctam ca -- tho -- li -- cam et
+  a -- po -- sto -- li -- cam Ec -- cle -- si --
+  am.
+
+  Et ex -- %61
+  pe -- cto, et ex -- pe -- cto re -- sur -- re -- cti --
+  o -- nem, \xE re -- sur -- re -- cti -- o -- nem \x
+  mor -- tu -- o --
+  rum, a -- %65
+  men,
+  a --
+  men, a --
+  men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, %70
+  a -- men, a -- men, a --
+  men, a -- men, a --
+  _ _ _ _
+  _ men, a --
+  men, et vi -- tam ven -- tu -- ri %75
+  sae -- cu -- li, a -- men, a --
+  men, et vi -- tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, a --
+  men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, %80
+  a -- men, a -- men, et
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li,
+  a -- men,
+  a -- %85
+  men, a -- men, a --
+  men. %87 finis
+}

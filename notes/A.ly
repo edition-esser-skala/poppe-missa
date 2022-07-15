@@ -301,3 +301,168 @@ GloriaAltoLyrics = \lyricmode {
   men, a -- men, a --
   men. %74 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \autoBeamOff \tempoCredo
+      \set Staff.timeSignatureFraction = 3/2
+    \mvTr e2\fE^\tutti e e e r4 e e e
+    e2 e4 a a a a1 h2~
+    h4 a a1 gis2 gis gis
+    a h4 h gis4. gis8 a2 r a4 gis
+    a2. a4 gis4. gis8 a2 e4 e f f %5
+    g2 g4 g f2 f f1
+    e2 g4. g8 f2 f2.^\critnote f4 f2
+    e d2. d4 e2 \mvTr e\pE^\solo f
+    g1 a2~ a f1
+    e2 g gis a2. d,4 e2~ %10
+    e1 dis4.\trill e8 e2 gis a4 h
+    e,2 e r r a a
+    gis gis4. gis8 a2 f e1
+    e2 \mvTr f2.\fE^\tutti f4 g g a a g4. g8
+    g2. g4 a2 a g1 %15
+    a2 a g f2. f4 e2~ \noBreak
+    \tempoFacta e e2. e4 e1.\fermata \bar "||"
+    \time 4/4 \tempoQuiPropter \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*5 %22
+    r4 \mvTr g\pE^\solo g8 f f8.\trill f16
+    e4 r8 e d4. e16 d
+    e8 c c c h c r4 %25
+    r8 a' h8. h16 c8. g16 g8 g
+    f4 fis8 fis gis4 a
+    a( gis8.) a16 \tempoCrucifixus a2
+    R1*7 %35
+    r8 \tempoEtResurrexit \mvTr g\fE^\tutti a g g g r4
+    r8 g a g g g g f16 f
+    e8 e r g a([ g)] g fis
+    g g r4 r2
+    R1*2 %41
+    r16 \mvTr h\pE^\solo a g fis a g fis g8 h, e16([ fis e fis]
+    dis8) dis16 dis r4 r8 h e16([ fis e fis]
+    dis8) dis16 dis h'8 a g fis g fis\fermata
+    \tempoEtMortuos r4 e a4. a8 %45
+    h,2 r4\fermata \tempoCuius r8 h'16 a
+    g8 fis16 e a4. g8 fis4
+    e g8 g g g16 g g8 fis
+    g g16 g d8 e f e e([ d)]
+    e g4 g8 f8. f16 f8 f16 f %50
+    e8 e e8.([ d16)] e8 \mvTr gis4\fE^\tutti a8
+    e4 e8 d e e16 e f8. f16
+    e8 e4 e8 e e e4
+    e8 e e e e e f4
+    e8 e16 e e8 d16([ c)] h4 e8 f %55
+    e([ f] e4) e8 r r4
+    R1
+    r2 r4 r8 \mvTr fis\pE^\solo
+    g8. g16 g8 g f f f4
+    e e8. e16 e8. d16 d8 cis %60
+    f e e8.([ d16)] e8 \mvTr gis4\fE^\tutti a8
+    gis gis gis a gis gis gis16 gis gis gis
+    a8 a e16 e e e e8 e r4\fermata
+    \tempoMortuorum e4.\p e8 d2
+    c8 \tempoEtVitam r r4 r2 %65
+    r4 r8 a'( g![ a16 g] fis8[ h)]
+    e, e g4 fis8 e e dis
+    e16([ dis e fis] gis[ fis gis e] a8) a16 a a8 gis
+    a16([ h c h] a8) e gis a h([ e,)]
+    e a a a16 a h8 h a a16 a %70
+    g!8 g r e( fis[ g a h)]
+    e, gis16([ a] h[ a h gis] a8) a h h
+    a h r gis a a16 a a8 gis
+    a e16 e a4( gis8[ a f e])
+    e4 r8 a( gis8[ a16 gis] fis8[ h)] %75
+    e, a([ gis a] gis) a a4
+    gis8 r r4 r r8 a(
+    f16[ e f g] a8) d, e a a([ gis?)]
+    a e a4 gis8 a h h
+    a a16 a r8 a a a16 a a8 h %80
+    h a16 a gis8([ a)] gis4 r
+    r8 e a gis16 gis a8 e a a16 a
+    h8 a h16([ a gis h] a8) gis a a
+    gis gis r a a2~
+    a f8 e e4 %85
+    e gis-! a-! gis-!
+    a-! r r2\fermata \bar "|." %87 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem, Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem coe -- li __
+  et ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- um et in --
+  vi -- si -- bi -- li -- um. Et in u -- num %5
+  Do -- mi -- num Je -- sum Chri --
+  stum, Fi -- li -- um De -- i u --
+  ni -- ge -- ni -- tum. Et ex
+  Pa -- tre __ na -- %10
+  tum an -- te o -- mni -- a __
+  sae -- cu -- la, De -- um de
+  De -- o, De -- um
+  ve -- rum de De -- o ve --
+  ro. Ge -- ni -- tum non fa -- ctum, con -- sub --
+  stan -- ti -- a -- lem Pa -- %15
+  tri, per quem o -- mni -- a __
+  fa -- cta sunt.
+
+  Et in -- car -- na -- tus %23
+  est de Spi -- ri -- tu
+  San -- cto ex Ma -- ri -- a, %25
+  Ma -- ri -- a Vir -- gi -- ne, et
+  ho -- mo, et ho -- mo
+  fa -- ctus est.
+
+  Et re -- sur -- re -- xit, %36
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras.
+
+  Et i -- te -- rum ven -- tu -- rus est cum glo -- %42
+  ri -- a, cum glo --
+  ri -- a iu -- di -- ca -- re vi -- vos
+  et mor -- tu -- %45
+  os, cu -- ius
+  re -- gni non e -- rit fi --
+  nis. Et in Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et vi -- vi -- fi -- can --
+  tem, qui ex Pa -- tre Fi -- li -- o -- %50
+  que pro -- ce -- dit. Qui cum
+  Pa -- tre, cum Pa -- tre et Fi -- li --
+  o si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur: qui lo -- cu -- tus est per Pro -- %55
+  phe -- tas.
+
+  Con --
+  fi -- te -- or u -- num ba -- ptis --
+  ma in re -- mis -- si -- o -- nem %60
+  pec -- ca -- to -- rum. Et ex --
+  pe -- cto, et ex -- pe -- cto re -- sur -- re -- cti --
+  o -- nem, re -- sur -- re -- cti -- o -- nem
+  mor -- tu -- o --
+  rum, %65
+  a --
+  men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men,
+  a -- men, a -- men, a --
+  men, et vi -- tam ven -- tu -- ri sae -- cu -- li, %70
+  a -- men, a --
+  men, a -- men, a -- men,
+  a -- men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a --
+  men, a -- %75
+  men, a -- men, a --
+  men, a --
+  men, a -- men, a --
+  men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, et vi -- tam ven -- tu -- ri %80
+  sae -- cu -- li, a -- men,
+  et vi -- tam ven -- tu -- ri sae -- cu -- li,
+  a -- men, a -- men, a -- men,
+  a -- men, a -- _
+  _ men, a -- %85
+  men, a -- men, a --
+  men. %87 finis
+}

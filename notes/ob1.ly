@@ -137,3 +137,72 @@ GloriaOboeI = {
     a-\parenthesize-! r r2\fermata \bar "|." %74 finis
   }
 }
+
+CredoOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 6/2 \tempoCredo
+      \set Staff.timeSignatureFraction = 3/2
+    c'2\fE a a gis4 e gis e h'2
+    a4 a c a e'2~ e d d
+    c1 d2 e e e
+    f f4 f e4. e8 e2 e4 e e2~
+    e4 f e2. e4 e2 c4 c c c %5
+    c2 c4 c c2 c c2. h4
+    c2 c4. c8 c2 c2. c4 h2
+    c c h c1.
+    R\breve.*5 %13
+    r2 a4\fE a c c c2 c c4. c8
+    c2. c4 c2 c c1 %15
+    c2 c cis d2. d4 c2~ \noBreak
+    \tempoFacta c h2. h4 a1.\fermata \bar "||"
+    \time 4/4 \tempoQuiPropter \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*10 %32
+    r2 \tempoCrucifixus r
+    R1*7 %35
+    r8 \tempoEtResurrexit c\fE c d c c r4
+    r8 c c d c c c c
+    c c r c c8 d c8. c16
+    h8 h r4 r2
+    R1*4 %43
+    R1\fermata
+    \tempoEtMortuos R1 %45
+    r2 r4\fermata \tempoCuius r
+    R1*4 %50
+    r2 r8 h4\fE c8
+    gis4 gis8 a a a a8. a16
+    a8 a4 h8 a h h a
+    gis h h h c c c8. h16
+    c8 c c h16 a gis4 a8 a %55
+    a4. gis8 a r r4
+    R1*4 %60
+    r2 r8 e'4\fE e8
+    e e h c h h h h
+    c c c8. c16 h8 h r4\fermata
+    \tempoMortuorum R1
+    r8 \tempoEtVitam a\fE c4 h8 a a gis %65
+    a16 gis a h c h c d^\critnote e8 e e dis
+    e16 fis g fis e8 e dis e fis4
+    e r8 h c16 h a c d c h d
+    c8 a r a h c d e
+    a,4 r8 e' e e c h %70
+    h h e4 dis8 e fis4
+    e r8 e c d16 c h8 e
+    a,4 r8 e' e f16 e d8 e
+    e e r c d c h4
+    a8 c16 d e d e c h8 h r h %75
+    gis a d c h e  e8. d16
+    e8 e f!4 e8 d4 cis8
+    d16 cis d e f e f d a'8 a, d h
+    c c r a h c d e
+    a,4 r8 e' d d d d %80
+    e e e4 e r8 h
+    c h c h c e e e
+    e16 d c d e f e d c8 h c c
+    h h r c d2
+    c a4. gis8 %85
+    a4 h-! c-! h-!
+    a-! r r2\fermata \bar "|." %87 finis
+  }
+}

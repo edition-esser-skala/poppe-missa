@@ -7,7 +7,7 @@
 
 
 tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
-
+mvTl = \once \override TextScript.X-offset = #-2
 
 rip = \markup \remark "Rip."
 ripE = \markup \remarkE "Rip."
@@ -30,6 +30,16 @@ tempoQuiSedes = \tempoMarkup "Allegro"
 tempoMiserere = \tempoMarkup "Adagio"
 tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Allegro assai"
+
+tempoCredo = \tempoMarkup "[Allegro]"
+tempoFacta = \tempoMarkup "Adagio"
+tempoQuiPropter = \tempoMarkup "[Andante]"
+tempoCrucifixus = \tempoMarkup "Adagio"
+tempoEtResurrexit = \tempoMarkup "Allegro"
+tempoEtMortuos = \tempoMarkup "Adagio"
+tempoCuius = \tempoMarkup "Allegro"
+tempoMortuorum = \tempoMarkup "Adagio"
+tempoEtVitam = \tempoMarkup "Presto"
 
 
 \include "notes/ob1.ly"

@@ -153,3 +153,90 @@ GloriaViola = {
     e4-! r r2\fermata \bar "|."
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 6/2 \tempoCredo
+      \set Staff.timeSignatureFraction = 3/2
+    e1.\fE gis2. e4 e e
+    e2 r4 a a a d, d' d, d' gis,4. gis8
+    a4 g f2. f4 e2 e e
+    e d4 d d4. d8 e2. gis4 a2~
+    a4 a a2 gis a e f4 a %5
+    c2 g r4 f f2 f a
+    c e, f d2. d4 g2
+    c, f d e r r
+    R\breve.*4 %12
+    gis2\p gis4. gis8 a2 f e2. e4
+    e2 f2.\f f4 g g a a g4. g8
+    c,4 c8 c c4 c a' a a2 g2. g4 %15
+    a2 a g f2. f4 e2 \noBreak
+    \tempoFacta a a2.^\critnote gis4 a1.\fermata \bar "||"
+    \time 4/4 \tempoQuiPropter \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      a2\p^\tenuto g4. c,8 \noBreak
+    d2 e8 c c c
+    c2 d %20
+    c d4 c~
+    c h8 c c4 h8.\trill c16
+    c4 r r2
+    R1
+    r2 r4 e8 e %25
+    e4 r r2
+    r4 r8 fis e4 c8 f
+    h,4. h8 \tempoCrucifixus c4 r
+    R1*4 %32
+    r8 h-! h-! h-! c-! c-! a-! a-!
+    a-! a-! g-! g-! g-! g-!\pp c-! c-!
+    g-! g-! g-! g-! e-! e-! e-! e-! %35
+    e \tempoEtResurrexit g'16[\f g] a a g g g g g g g g a a
+    g g g g a a g g c, c c c g' g f f
+    g8 g r g c, h c a
+    g4 r r2
+    R1 %40
+    r2 r16 h'\f a g fis a g fis
+    e8 r fis\p r g g g a
+    h h h h h r r4
+    dis,8 r r4 h8 h h h\fermata
+    \tempoEtMortuos c8\pp c c c c c c c %45
+    fis, fis fis fis fis4\fermata \tempoCuius r
+    e'8\pE d! c a h e, a h
+    e,4 r r2
+    R1*2 %50
+    r2 r8 e'4\f a8
+    e4 e8 d e e16 e f8. f16
+    e8 e4 e8 e e e4
+    e8 e16 e e gis gis gis a e e e f8. f16
+    e8 r r4 r e8 f %55
+    e f e8. e16 e8 r r4
+    R1*4 %60
+    r2 r8 gis4\fE a16 a
+    e e e e gis8 a gis16 gis gis gis gis gis gis gis
+    a a a a c, c e e e8 gis r4\fermata
+    \tempoMortuorum e8\p e e e h h16 c d8 d
+    << { \oneVoice e4 } \\ { s8 \tempoEtVitam s } >> r4 r2 %65
+    r4 r8 a\fE g! a16 g fis8 h
+    e,4 r8 h a h c a
+    h4 r8 e c d16 c h8 e
+    a, a c4 h8 a a gis
+    a16 gis a h c h c a e'8 e16 e e8 dis %70
+    e h r h a h c h
+    h r r h e4 r8 e
+    c d16 c h8 e a,16 h a c d c h d
+    c8 a r a h c d e
+    a,4 r8 e' e e16 e a,8 d %75
+    e16 gis a a gis gis a a gis gis a a a a a a
+    gis8 e e d16 d cis8 d e a
+    f16 e f g a8 d, c d16 c h8 e
+    a, a' c c h a a gis
+    a16 gis a h c h c a d4 r8 fis, %80
+    gis a e8. e16 e4 r16 e e e
+    e8 e a16 a gis gis a a e e c' c a a
+    gis gis a a gis gis gis gis e e gis gis e c' c a
+    gis8 gis r e16 e f a a a a8-! f-!
+    r16 a a a e e c c d d e e e8. e16 %85
+    c4 e-! e-! e-!
+    e-! r r2\fermata \bar "|." %87 finis
+  }
+}

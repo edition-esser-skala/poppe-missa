@@ -210,3 +210,146 @@ GloriaBassoLyrics = \lyricmode {
   men, a -- men, a --
   men. %74 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \autoBeamOff \tempoCredo
+      \set Staff.timeSignatureFraction = 3/2
+    \mvTr a'1.\fE^\tutti e2 r4 e gis e
+    a2 a4 a c a d1 gis,2
+    a f1 e2 r r
+    r1 r2 r a4 gis a2~
+    a4 d, e2. e4 a,2 a'4 a f f %5
+    e2 e4 e f2 a, d1
+    c2 e4. e8 f2 d2. d4 g2
+    c, g2. g4 c1.
+    R\breve.*3 %11
+    r2 \mvTr a'\pE^\solo g!4. g8 f2 f4 f d d
+    e2 e4. e8 a2 d, e1
+    a,2 \mvTr f'2.\fE^\tutti f4 e e f f c4.  c8
+    c'2. b4 a2 f c1 %15
+    f2 f e d2. d4 a2~ \noBreak
+    \tempoFacta a e'2. e4 a,1.\fermata \bar "||"
+    \time 4/4 \tempoQuiPropter \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r8 \mvTr f'\pE^\solo a g16 f c'8. c,16 c8 c \noBreak
+    f g a h16 h c4 c8 c
+    c16[ b a g] f[ a f a] b,[ d' b a] g[ b g b] %20
+    e,[ c d e] f[ a g a] h[ g a h] c[ g e c]
+    fis,4 g8 c' c4( g)
+    c, r r2
+    R1*4 %27
+    r2 \tempoCrucifixus r
+    R1*7 %35
+    r8 \tempoEtResurrexit \mvTr c'\fE^\tutti a h c c r4
+    r8 c a h c c e, f16 f
+    c8 c c'4 a8([ h)] c a
+    g g r4 r2
+    R1*4 %43
+    R1\fermata
+    \tempoEtMortuos R1 %45
+    r2 r4\fermata \tempoCuius r
+    R1*2
+    r4 \mvTr g8\pE^\solo e d e f4
+    c8 c'4 c8 a a h h16 h %50
+    gis8 a f4 e r
+    r8 \mvTr e4\fE^\tutti f8 cis cis16 cis d8. d16
+    a8 a'4 gis8 a gis a4
+    e8 e gis e a a, d4
+    c8 r r4 r c8 d %55
+    e([ d] e4) a,8 r r4
+    R1*4 %60
+    r2 r8 \mvTr e'4\fE^\tutti e8
+    e e r4 r e16 e e e
+    a8 a, c16 c a a e'8 e r4\fermata
+    \tempoMortuorum c4.\p c8 h2
+    a8 \tempoEtVitam r r4 r2 %65
+    R1
+    r4 r8 e'( fis[ g a h])
+    e,4 r r2
+    R1*2 %70
+    r8 e g!4 fis8 e e dis
+    e16([ dis e fis] gis?[ fis gis? e] a8) a16 a a8 gis
+    a a r e( c[ d16 c] h8[ e])
+    a, a c4 h8 a a gis
+    a16([ gis a h] c[ h c a] e'8) e16 e e8 d %75
+    d c h([ a)] e' c( f4)
+    e8 r r d( e[ f g! a)]
+    d,4 r r2
+    r8 a' c4 h8 a a gis
+    a16([ gis a h] c[ h c a] d8) d16 d d8 h %80
+    gis a e([ a)] e4 r8 e
+    a gis16 gis a8 e a gis16 gis c8 a16 a
+    gis8 a16 a gis8 e a e16 e c8 a
+    e' e r a d,[ e f d]
+    a'[ a, c a] d[ a' e e,] %85
+    a4 e'-! a-! e-!
+    a,-! r r2\fermata \bar "|." %87 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem coe -- li
+  et ter -- rae,
+  et in -- vi --
+  si -- bi -- li -- um. Et in u -- num %5
+  Do -- mi -- num Je -- sum Chri --
+  stum, Fi -- li -- um De -- i u --
+  ni -- ge -- ni -- tum.
+
+  Lu -- men de lu -- mi -- ne, De -- um %12
+  ve -- rum de De -- o ve --
+  ro. Ge -- ni -- tum non fa -- ctum, con -- sub --
+  stan -- ti -- a -- lem Pa -- %15
+  tri, per quem o -- mni -- a __
+  fa -- cta sunt.
+  Qui pro -- pter nos ho -- mi -- nes et
+  pro -- pter no -- stram sa -- lu -- tem de --
+  scen -- _ _ _ %20
+  _ _ _ _
+  _ dit de coe --
+  lis.
+
+  Et re -- sur -- re -- xit, %36
+  et re -- sur -- re -- xit ter -- ti -- a
+  di -- e se -- cun -- dum Scri --
+  ptu -- ras.
+
+  Et vi -- vi -- fi -- can -- %49
+  tem, qui ex Pa -- tre Fi -- li -- o -- %50
+  que pro -- ce -- dit.
+  Qui cum Pa -- tre et Fi -- li --
+  o si -- mul ad -- o -- ra --
+  tur et con -- glo -- ri -- fi -- ca --
+  tur: per Pro -- %55
+  phe -- tas.
+
+  Et ex -- %61
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem, re -- sur -- re -- cti -- o -- nem
+  mor -- tu -- o --
+  rum, %65
+
+  a --
+  men,
+
+  et vi -- tam ven -- tu -- ri %71
+  sae -- cu -- li, a -- men,
+  a -- men, a --
+  men, et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, %75
+  a -- men, a -- men, a --
+  men, a --
+  men,
+  et vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men, %80
+  a -- men, a -- men, et
+  vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men, et
+  vi -- tam ven -- tu -- ri sae -- cu -- li, a -- men,
+  a -- men, a -- _
+  _ _ %85
+  men, a -- men, a --
+  men. %87 finis
+}
