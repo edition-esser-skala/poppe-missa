@@ -14,10 +14,22 @@ ripE = \markup \remarkE "Rip."
 
 
 tempoKyrie = \tempoMarkup "Largo"
-  tempoChriste = \tempoMarkup "Andante"
-  tempoChristeB = \tempoMarkup "Adagio"
+tempoChriste = \tempoMarkup "Andante"
+tempoChristeB = \tempoMarkup "Adagio"
 tempoKyrieB = \tempoMarkup "A capella · Allegro"
 tempoKyrieC = \tempoMarkup "Adagio"
+
+tempoGloria = \tempoMarkup "Vivace"
+tempoAdoramus = \tempoMarkup "Largo"
+tempoGlorificamus = \tempoMarkup "Allegro"
+tempoGratias = \tempoMarkup "Largo"
+tempoPropter = \tempoMarkup "Allegro"
+tempoDomine = \tempoMarkup "Andante"
+tempoSuscipe = \tempoMarkup "Adagio"
+tempoQuiSedes = \tempoMarkup "Allegro"
+tempoMiserere = \tempoMarkup "Adagio"
+tempoQuoniam = \tempoMarkup "Allegro"
+tempoCumSancto = \tempoMarkup "Allegro assai"
 
 
 \include "notes/ob1.ly"

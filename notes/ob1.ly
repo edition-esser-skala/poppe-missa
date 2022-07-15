@@ -66,3 +66,74 @@ KyrieOboeI = {
     a1\fermata \bar "|." %73 finis
   }
 }
+
+GloriaOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoGloria
+    c'8\fE d c e e r e r
+    r e e e c f e8. e16
+    e4 r d8 d d c16( h)
+    c4. h16 a h4. a8
+    a2 gis8 h e h %5
+    c e e e c a h gis
+    a e' e d c16 h a h c d h c
+    d c h c d e c d e8 d c d
+    c4 h8 h c4 r
+    \tempoAdoramus c4. c8 c4 e %10
+    dis( e) h4. h8
+    h \tempoGlorificamus r r4 r2
+    R1*2
+    r8 h\fE h h c c c c %15
+    h h r h h h h8. h16
+    h4\fermata \tempoGratias gis4. gis8 gis4
+    a8. a16 a4 gis8 gis \tempoPropter h h
+    c16( h) a( h) c8 c16 c c8 a r4
+    r d8 h c c c c %20
+    c c e e e d d4
+    c \tempoDomine r r2
+    R1*8 %30
+    r2 r8 e\fE e e
+    e c c c r h a gis
+    a a r4 r h~
+    h a a8 a a8.( gis16)
+    a4 r8 e' d d, h''4~ %35
+    h8 e, a4. gis8 a8.^\critnote a16
+    gis4 r r2
+    r2 \tempoSuscipe r
+    R1*3 %41
+    r8 \tempoQuiSedes g\fE g g g g g8. g16
+    g8 g, \tempoMiserere g' g e e a g
+    c,4. c8 c4 h
+    \tempoQuoniam c r r2 %45
+    r4 r8 c\fE c c c c
+    c8. c16 c8 r r2
+    R1
+    << { \oneVoice r4 } \\ { s8 \tempoCumSancto s } >> r a\fE h c d e
+    a,4 r8 e' d d d d %50
+    e e e4 e8 r r4
+    r8 a, c c h a a gis
+    a16 gis a h c h c d e8 e e dis
+    e16 fis g fis e8 e dis-! e-! fis4
+    e r8 h c16 h a c d c h d %55
+    c8 a r a h c d e
+    a,4 r8 e' e e c h
+    h h e4 dis8 e fis4
+    e r8 e c d16 c h8 e
+    a,4 r8 e' e f16 e d8 e %60
+    e e r c d( c) h4
+    a8 c16( d) e d e c h8 h r h
+    gis a d c h e e8. d16
+    e8 e f! f e d d cis
+    d16 cis d e f e f d a'8 a, d h %65
+    c c r a h c d e
+    a,4 r8 e' d d d d
+    e e e4 e r8 h
+    c h c e e e e e
+    e16 d c d e f e d c8 h^\critnote c c %70
+    h h r c d2
+    c a4.( gis8)
+    a4 h-! c-! h-!
+    a-\parenthesize-! r r2\fermata \bar "|." %74 finis
+  }
+}
