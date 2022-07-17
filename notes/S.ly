@@ -451,3 +451,146 @@ CredoSopranoLyrics = \lyricmode {
   men, a -- men, a --
   men. %87 finis
 }
+
+SanctusSoli = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoSanctus
+    R1*8
+    \tempoPleni r8 \mvTr c'\pE^\markup \remark "Soprano" a c d16[ c h c] d[ e c d]
+    e[ d c d] e[ f d e] f8 e16 e a,4 %10
+    gis8 r r4 r2
+    r8 e'16[ f] e[ f h, c] d[ c d e] d[ e d e]
+    c[ h c d] c[ d c d] h[ a h c] h[ c h c]
+    a8 a16 a a8.([ gis16)] a8 r r4
+    R1*2 \noBreak %16
+    R1\fermata \bar "||"
+    \tempoOsanna r8 e^\markup \remark "Alto" e16[ f e d] c[ h c d] c[ e d e] \noBreak
+    f8 f f8. f16 e8 e r4
+    r2 r8 h'^\markup \remark "Soprano" h16[ c h a] %20
+    g[ fis g a] g[ h a h] c8 c c8. c16
+    h8 h r4 r2
+    R1*4 \noBreak %26
+    R1\fermata \bar "||"
+    \tempoBenedictus R1*19 %46
+    R1\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}
+
+SanctusSoliLyrics = \lyricmode {
+  Ple -- ni sunt coe -- _
+  _ _ _ li et ter -- %10
+  ra
+  glo -- _ _ _
+  _ _ _ _
+  _ ri -- a tu -- a.
+
+  O -- san -- _ _ %18
+  _ na in ex -- cel -- sis,
+  o -- san -- %20
+  _ _ _ na in ex --
+  cel -- sis. %22 finis
+}
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a'2\fE^\tutti h
+    c8[ a] f'2 e4
+    d2. c4
+    d( e2)^\critnote e4
+    e4.( d8) e2 %5
+    e8. e16 e4 e4. e8
+    d2 h4 c8[ h]
+    \once \tieDashed h2~ h4. a8
+    \tempoPleni a r r4 r2
+    R1 %10
+    r8 e' e e e e16 e e4
+    e8 r r4 r2
+    r8 c16[ d] c[ d c d] h[ a h c] h[ c h c]
+    a8 a16 a a8.([ gis16)] a8 r r4
+    c16[ h c d] c[ d c d] h[ a h c] h[ c h c] %15
+    a8 a16 a a8.([ gis16)] a8 r r4 \noBreak
+    R1\fermata \bar "||"
+    \tempoOsanna R1 \noBreak
+    r4 r8 d e e e e
+    e4.( dis8) e r r4 %20
+    r2 r4 r8 c
+    h h h e dis dis r dis
+    e e e e e e r c
+    d d d d d c c f
+    e2 e8 r r4 %25
+    r r8 c f f d d \noBreak
+    e( a,4 gis8) a2\fermata \bar "||"
+    \tempoBenedictus r2 a~ \noBreak
+    a a
+    gis1 %30
+    a
+    c
+    d
+    c
+    c %35
+    h
+    a
+    g
+    h
+    c %40
+    d
+    c
+    h2. h4
+    c c h2~
+    h4 h8 h a2~ %45
+    a2. gis8([ fis)]
+    gis2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- _
+  _ _ ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus %5
+  Do -- mi -- nus De -- us
+  Sa -- _ _
+  _ ba --
+  oth.
+
+  Ple -- ni sunt coe -- li et ter -- %11
+  ra
+  glo -- _ _ _
+  _ ri -- a tu -- a,
+  glo -- _ _ _ %15
+  _ ri -- a tu -- a.
+
+  O -- san -- na in ex -- %19
+  cel -- sis, %20
+  o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis, %25
+  o -- san -- na in ex --
+  cel -- sis.
+  Be --
+  ne --
+  di -- %30
+  ctus,
+  qui
+  ve --
+  nit
+  in %35
+  no --
+  mi --
+  ne
+  Do --
+  _ %40
+  _
+  _
+  _ mi --
+  ni, in no --
+  mi -- ne Do -- %45
+  mi --
+  ni. %47 finis
+}

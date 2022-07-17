@@ -466,3 +466,106 @@ CredoAltoLyrics = \lyricmode {
   men, a -- men, a --
   men. %87 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr e2(\fE^\tutti d4 e)
+    e a g2
+    fis4 gis a8[ e] \once \tieDashed a4~
+    a h8 h a4. gis8
+    a2 gis4 e8([ fis] %5
+    gis[ a] h8.) h16 e,4 a8 g
+    f4. f8 e4 e8 f
+    e2. e4
+    \tempoPleni e r r2
+    R1 %10
+    r8 gis h gis a h16 h a4
+    gis8 r r4 r2
+    r8 e4 g16 a g8 g d f16 g
+    f8 f16 f e4 e8 r r4
+    r8 e4 g!16 a g8 g d f16 g %15
+    f8 f16 f e4 e8 r r4 \noBreak
+    R1\fermata \bar "||"
+    \tempoOsanna R1\noBreak
+    r4 r8 f e e g fis
+    fis2^\critnote e8 r r4 %20
+    r2 r4 r8 fis
+    g e fis g fis fis r fis
+    h h h h a a r a
+    a a g! g g g a h
+    gis( a4 gis8) a r r4 %25
+    r r8 a a a g g16([ f)] \noBreak
+    e8.([ f16] e4) e2\fermata \bar "||"
+    \tempoBenedictus r2 a~ \noBreak
+    a a
+    gis1 %30
+    a
+    c
+    d
+    c
+    c %35
+    h
+    a
+    g
+    h
+    c %40
+    d
+    c
+    h2. h4
+    a4 a h4. h8
+    e,4 e a4. a8 %45
+    a,([ h)] c2 h8([ a)]
+    h2 r\fermata \bar "||" %47 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San --
+  ctus, san -- _
+  _ _ _ _
+  _ ctus, san -- _
+  _ ctus Do -- %5
+  mi -- nus De -- us
+  Sa -- ba -- oth, De -- us
+  Sa -- ba --
+  oth.
+  %10
+  Ple -- ni sunt coe -- li et ter --
+  ra
+  glo -- ri -- a tu -- a, glo -- ri -- a,
+  glo -- ri -- a tu -- a,
+  glo -- ri -- a tu -- a, glo -- ri -- a, %15
+  glo -- ri -- a tu -- a.
+
+  O -- san -- a in ex -- %19
+  cel -- sis, %20
+  o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- cel -- sis, in ex --
+  cel -- sis, %25
+  o -- san -- na in ex --
+  cel -- sis.
+  Be --
+  ne --
+  di -- %30
+  ctus,
+  qui
+  ve --
+  nit
+  in %35
+  no --
+  mi --
+  ne
+  Do --
+  _ %40
+  _
+  _
+  _ mi --
+  ni, in no -- mi --
+  ne, in no -- mi -- %45
+  ne __ Do -- mi --
+  ni. %47 finis
+}

@@ -255,3 +255,57 @@ CredoViolinoII = {
     <a c, e, a,>-! r r2\fermata \bar "|." %87 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoSanctus
+    e'8\fE e e c h d e h
+    e c f f f f e e
+    d d d d d d c c
+    h d e e e a, a^\critnote gis
+    a a a a e' e e e %5
+    e e e8. e16 e4. e8
+    f e d h h4 c8 h
+    e4 h h4. h8
+    \tempoPleni c4 r h\pE r
+    c r8 c a gis a4 %10
+    h16 gis\f e' e e e e e c c e e c c c c
+    e8 r r4 r2
+    r8 e4 e16 a, d8 d4 d16 g,
+    c8 d16 d h8 e c16 h c d h8.\trill a16
+    a8 e'4 e16 a, d8 d4 d16 g, %15
+    c8 d16 d h8 e c16 gis a h gis8.\trill a16 \noBreak
+    a4 r r2\fermata \bar "||"
+    \tempoOsanna e'4\pE e e r \noBreak
+    d d c8\fE e16 e e8 e
+    e e e dis e r h4\pE %20
+    h h a a8. a16\fE
+    h8 g'16 g fis8 e16 e fis8 fis dis dis
+    e16 e e e e e e h c8 c r16 c c c
+    d d d d d8. d16 c8 e e f
+    e16 e e e e8. e16 e8 c h8. h16 %25
+    a4 r16 c h c d8 d h8. h16 \noBreak
+    c8 a a gis a2\fermata \bar "||"
+    \tempoBenedictus a,8-\critnote a'16 gis a8 g f f16 e f8 e \noBreak
+    d d16 c d8 e f f16 e d8 f
+    e e'16 d e8 e, d d'16 c d8 d, %30
+    c c'16 h c8 a a, a'16 g a8 f
+    e e16 f e8 d c c'16 h c8 c,
+    f d16 e f8 d g, g'16 f g8 g,
+    c c'16 h c8 c, a a'16 g a8 a,
+    c f16 e f8 a g e16 d e8 f %35
+    g,4 r8 g'16 f g8 g, r g'16 e
+    f8 a r f16 e d8 d' r a16 fis
+    g8 d' r a h, h'16 c h8 a
+    g g16 a g8 f e e16 f e8 d
+    c c'16 d c8 b a a16 b a8 g %40
+    f4 r8 fis16 a g8 d' r gis,16 h
+    a8 e c' h a a,16 h c8 a
+    d d'16 c h8 d e, e'16 d e8 e,
+    a, r r a'16 c h8 e, r h'16 gis
+    e'8 e, r g16 h a8 d, r a'16 fis %45
+    dis'?8 dis,? r f16 a e8 h' r e
+    e,2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}

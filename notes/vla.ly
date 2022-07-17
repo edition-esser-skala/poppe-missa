@@ -240,3 +240,57 @@ CredoViola = {
     e-! r r2\fermata \bar "|." %87 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoSanctus
+    c8\fE c a a d d h h
+    a e' a, h c c c c'16 h
+    a8 a gis gis a e e e
+    h' e, e d c c h e16 d
+    c8 c16 h a8 a' gis gis gis fis %5
+    gis a h h e, e a g
+    f f f f e4 e8 f
+    e4 e e4. gis8
+    \tempoPleni e4 c\p g' r
+    e r8 e d h a f' %10
+    h, gis'16\f gis gis8. gis16 a8 h16 h e, e e e
+    gis8 r r4 r2
+    r8 e4 g16 a g8 g d f16 g
+    f8 f16 f e8. e16 e8 e e8. e16
+    e8 e4 g!16 a g8 g d f16 g %15
+    f8 e16 d e8. e16 e8 e e8. e16 \noBreak
+    e4 r r2\fermata \bar "||"
+    \tempoOsanna e4\pE gis e r \noBreak
+    f g g8\fE g16 g c,8 c
+    fis8. fis16 h,8-\critnote h e r h4\pE %20
+    h e e8 a,-\critnote d fis\fE
+    g e fis g fis fis r fis
+    h h h h a a r a
+    a a g! g g g a h
+    e, c16 d e8. e16 c?8 e e4 %25
+    e r8 a a a g!8. g16 \noBreak
+    g8 a e8. e16 e2\fermata \bar "||"
+    \tempoBenedictus a,8-\critnote a'16 gis a8 g f, f'16 e f8 e \noBreak
+    d, d'16 c d8 e f, f'16 e d8 f
+    e e'16 d e8 e, d d'16 c d8 d, %30
+    c c'16 h c8 a a, a'16 g a8 a,
+    e e'16 f e8 d c c'16 h c8 c,
+    f d16 e f8 d g, g'16 f g8 g,
+    c c'16 h c8 c, a a'16 g a8 a,
+    f f'16 e f8 f, e e'16 d e8 f %35
+    g, g'16 f g8 g, e e'16 d e8 e,
+    f f'16 e f8 f, fis fis'16 e fis8 d
+    g, g'16 fis g8 a h, h'16 c h8 h,
+    g g'16 a g8 g, e e'16 f e8 d
+    c c'16 d c8 b a a16 b a8 g %40
+    f, f'16 e fis8 d g, g'16 fis gis8 e
+    a, a'16 h c8 h a a,16 h c8 a
+    d d'16 c h8 d e, e'16 d e8 e,
+    a, a'16 gis a8 a, r gis'16 fis gis8 gis,
+    r g'16 fis g8 g, r fis'16 e fis8 fis, %45
+    r f'16 e f8 f, r e'16 d e8 e,
+    e2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}

@@ -206,3 +206,57 @@ CredoOboeI = {
     a-! r r2\fermata \bar "|." %87 finis
   }
 }
+
+SanctusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoSanctus
+    a'2\fE h
+    c8 a f'2 e4
+    d2. c4
+    d e2^\critnote e4
+    e4. d8 e2 %5
+    e8. e16 e4 e4. e8
+    d2 h4 c8 h
+    \once \tieDashed h2~ h4. a8
+    \tempoPleni a r r4 r2
+    R1 %10
+    r8 e'\fE e e e e e4
+    e8 r r4 r2
+    r8 c16 d c d c d h a h c h c h c
+    a8 a a8. gis16 a8 r r4
+    c16 h c d c d c d h a h c h c h c %15
+    a8 a a8. gis16 a h c d h8.\trill a16 \noBreak
+    a4 r r2\fermata \bar "||"
+    \tempoOsanna R1 \noBreak
+    r4 r8 d\fE e e e e
+    e4. dis8 e r r4 %20
+    r2 r4 r8 c\fE
+    h h h e dis dis r dis
+    e e e e e e r c
+    d d d d d c c f
+    e2 e8 e e16 f e d %25
+    c h c d c8 c f f d d \noBreak
+    e a,4 gis8 a2\fermata \bar "||"
+    \tempoBenedictus r2 a~ \noBreak
+    a a
+    gis1 %30
+    a
+    c
+    d
+    c
+    c %35
+    h
+    a
+    g
+    h
+    c %40
+    d
+    c
+    h2. h4
+    c c h2~
+    h4 h8 h a2~ %45
+    a2. gis8 fis
+    gis2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}

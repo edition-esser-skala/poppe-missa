@@ -370,3 +370,106 @@ CredoTenoreLyrics = \lyricmode {
   men, a -- men, a --
   men. %87 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c2(\fE^\tutti d)
+    c4 r r c(
+    d2) e
+    d c4( h)
+    a2 h4 h~ %5
+    h8. h16 h4 c8 a c4~
+    c h8[ a] gis4 \once \tieDashed a~
+    a2. gis4
+    \tempoPleni a r r2
+    R1 %10
+    r8 h h h c h16 h c4
+    h8 r r4 r2
+    r8 e4 e16 e d8 d d c16 c
+    c8 h16 h h4 c8 r r4
+    r8 e4 e16 e d8 d d c16 c %15
+    c8 h16 h h4 c8 r r4 \noBreak
+    R1\fermata \bar "||"
+    \tempoOsanna R1 \noBreak
+    r4 r8 h c c e c
+    h([ c] h4) h8 r r4 %20
+    r2 r4 r8 a
+    h h h h h h r4
+    r8 e e16[ f e d] c[ h c d] c[ e d e]
+    f8 f f8. f16 e8 e e d
+    d([ c] h4) c?8 r r4 %25
+    r2 r8 d h h \noBreak
+    c8. h16 h4 a2\fermata \bar "||"
+    \tempoBenedictus c4. c8 c4 c8 c \noBreak
+    f4( e8[ d] c4 d)
+    h r8 h e8. e16 e8 e %30
+    a,4 a8 h c4.( f8
+    g[ c, g']) f e4 r
+    r8 d4 d8 c4 h8 d
+    e4 e,8 e' e8. e16 e8 e
+    f4. e16[ f] g8[ g,] g'[ f16 e] %35
+    d4 d8 d e4. d8
+    c4 c c2~
+    c4 h8 c d[ d16 e] d8[ c]
+    h[ h16 c] h8[ a] g[ g'16 f] g8[ f]
+    e8. e16 e8 e f4 f8 b, %40
+    a8. a16 a8 a h4 h8 h
+    h8. h16 a8 a a2~
+    a4 a8 a a4( gis8.) gis16
+    a8 e' f2 e4~
+    e e8 e e4( d %45
+    dis4.) dis8 e2~
+    e r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus,
+  san -- ctus, __
+  san -- ctus Do -- %5
+  mi -- nus De -- us Sa --
+  _ _ _
+  ba --
+  oth.
+  %10
+  Ple -- ni sunt coe -- li et ter --
+  ra
+  glo -- ri -- a tu -- a, glo -- ri -- a,
+  glo -- ri -- a tu -- a
+  glo -- ri -- a tu -- a, glo -- ri -- a, %15
+  glo -- ri -- a tu -- a.
+
+  O -- san -- na in ex -- %19
+  cel -- sis, %20
+  o --
+  san -- na in ex -- cel -- sis,
+  o -- san -- _ _
+  _ na in ex -- cel -- sis, in ex --
+  cel -- sis, %25
+  o -- san -- na
+  in ex -- cel -- sis.
+  Be -- ne -- di -- ctus, qui
+  ve --
+  nit in no -- mi -- ne, in %30
+  no -- mi -- ne Do --
+  mi -- ni,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne, qui
+  ve -- _ _ _ %35
+  _ nit in no -- mi --
+  ne, in no --
+  mi -- ne Do -- _
+  _ _ _ _
+  _ mi -- ni, in no -- mi -- ne %40
+  Do -- mi -- ni, qui ve -- nit in
+  no -- mi -- ne, in no --
+  mi -- ne Do -- mi --
+  ni, in no -- _
+  mi -- ne Do -- %45
+  mi -- ni. __
+  %47 finis
+}

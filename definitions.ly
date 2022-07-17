@@ -12,6 +12,11 @@ mvTl = \once \override TextScript.X-offset = #-2
 rip = \markup \remark "Rip."
 ripE = \markup \remarkE "Rip."
 
+markOsannaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup { \remark "Osanna da capo" }
+}
+
 
 tempoKyrie = \tempoMarkup "Largo"
 tempoChriste = \tempoMarkup "Andante"
@@ -40,6 +45,11 @@ tempoEtMortuos = \tempoMarkup "Adagio"
 tempoCuius = \tempoMarkup "Allegro"
 tempoMortuorum = \tempoMarkup "Adagio"
 tempoEtVitam = \tempoMarkup "Presto"
+
+tempoSanctus = \tempoMarkup "Largo"
+tempoPleni = \tempoMarkup "Allegro"
+tempoOsanna = \tempoMarkup "Andante"
+tempoBenedictus = \tempoMarkup "Allegro assai"
 
 
 \include "notes/ob1.ly"
