@@ -14,7 +14,7 @@ ripE = \markup \remarkE "Rip."
 
 markOsannaDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup { \remark "Osanna da capo" }
+  \mark \markup { \remark "Osanna da capo (bars 18–27)" }
 }
 
 

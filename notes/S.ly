@@ -605,7 +605,7 @@ AgnusSoprano = {
     f e d4 e h8 h
     c4 c8 c a a16 a d8. d16 %5
     d8 c g4( a4.) a8
-    h c c8.([ h16)] c4 \tempoAgnusB \mvTr a8\fE^\tutti a
+    h c c8.([ h16)] c4 \tempoAgnusB \mvDl a8\fE^\tutti a
     h4 h8 a gis4 gis8 a
     a a a8.([ gis16)] a4 \tempoAgnusC c
     h4. h8 a2 \noBreak %10

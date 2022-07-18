@@ -208,7 +208,7 @@ GloriaOrgano = {
     r a a a r gis a e
     a a, r a' h a gis e
     a4 r8 a, f' d e e,
-    a4 r8 a'-\solo h a gis e %35
+    a4 r8 a'^\solo h a gis e %35
     a4 r8 a, a' e f4
     << { e8^\org \mvTr e^\p gis e a a, c a } \\ { e'8_\bassi r r4 r2 } >>
     h8 e a, h \tempoSuscipe c4 \clef "treble_8" c'
@@ -298,7 +298,7 @@ GloriaBassFigures = \figuremode {
   <6!>4 <6>8 \bo <[6]> r2
   r4. \bc <[6]>8 <4+ 2>4 <\t \t>
   <6>2 <7>4 <6!>8 <5> %40
-  \bo <9 [5+] _+>4 \bc <8 [\t] \t>8 <[6]> <6 4>4 <5+ _+>
+  <9 _+>4 <8 \t>8 <[6]> <6 4>4 <5+ _+>
   r4 <6 [_!]>4. \bo <[6 \l]>8 <9> <8>
   r2 <9 4>8 <8 3>4 \bc <[6 \l]>8
   <6 5>4 <\t \t> \bo <[4]> <3>

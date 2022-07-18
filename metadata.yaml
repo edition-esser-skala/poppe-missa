@@ -13,6 +13,7 @@ sources:
     rism: 212009095
     url: https://digital.slub-dresden.de/id448849186
     license: CC-BY-SA-4.0
+    principal: true
     notes: contains the following parts (pages in digital version are indicated):\\
       1 × ob 1 (123–128)\\
       1 × ob 2 (130–133)\\
@@ -32,6 +33,5 @@ sources:
     rism: 212007914
     url: https://digital.slub-dresden.de/id448849178
     license: CC-BY-SA-4.0
-    principal: true
     notes: full score, significantly damaged
 imslp:

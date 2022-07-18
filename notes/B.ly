@@ -465,7 +465,7 @@ AgnusBasso = {
     r2 r4 \mvTr f8\pE^\solo cis
     d e f4 e r
     R1*2 %6
-    r2 r4 \tempoAgnusB \mvTr c'8\fE^\tutti a
+    r2 r4 \tempoAgnusB \mvDl c'8\fE^\tutti a
     gis4 gis8 a e4 e8 c
     f d h4 a \tempoAgnusC a'
     g! g f2 \noBreak %10

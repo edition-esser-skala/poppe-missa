@@ -579,7 +579,7 @@ AgnusAlto = {
     a8 gis a4 gis gis8 gis
     a4 a8 a f f16 f f8. f16 %5
     f8 e g2 f4
-    f8 e d4 c \tempoAgnusB \mvTr e8\fE^\tutti e
+    f8 e d4 c \tempoAgnusB \mvDl e8\fE^\tutti e
     e^\critnote e e4 e8 e e4
     c8 f d4 c \tempoAgnusC e
     e e f2 \noBreak %10

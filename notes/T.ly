@@ -482,7 +482,7 @@ AgnusTenore = {
     r2 r4 \mvTr e8\pE^\solo d
     c4 c8 a d d16 d h8 g %5
     c c e,4( f4.) f8
-    g a f([ g)] c,4 \tempoAgnusB \mvTr c'8\fE^\tutti c
+    g a f([ g)] c,4 \tempoAgnusB \mvDl c'8\fE^\tutti c
     h4 h8 c h4^\critnote h8 c
     a h h4 e, \tempoAgnusC a
     h8 h e2( d4) \noBreak %10
