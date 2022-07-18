@@ -4,7 +4,7 @@ KyrieOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoKyrie \tightNotes
-    \mvTr a'8\fE-\tuttiE a a a a, a a a
+    \mvTr a'8\fE-\tuttiE-\ripE a a a a, a a a
     e' e e e~ e fis gis e
     a a a a a a gis gis
     a4 r8 a h h h h
@@ -69,7 +69,7 @@ KyrieOrgano = {
       a'4. c8 h e, e' d
       d c c d16 e a,8 h16 c d4
     } \\ {
-      \mvTr r2\fE-\tuttiE e,4. f8
+      \mvTr r2\fE-\tuttiE-\ripE e,4. f8
       e a, a' g g f f e16 d
     } >>
     \clef "treble_8" a4. c8 \clef bass e,4. f8 %55
