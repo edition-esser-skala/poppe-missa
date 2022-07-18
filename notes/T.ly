@@ -473,3 +473,70 @@ SanctusTenoreLyrics = \lyricmode {
   mi -- ni. __
   %47 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*3
+    r2 r4 \mvTr e8\pE^\solo d
+    c4 c8 a d d16 d h8 g %5
+    c c e,4( f4.) f8
+    g a f([ g)] c,4 \tempoAgnusB \mvTr c'8\fE^\tutti c
+    h4 h8 c h4^\critnote h8 c
+    a h h4 e, \tempoAgnusC a
+    h8 h e2( d4) \noBreak %10
+    e2 r\fermata \bar "||"
+    \tempoDona R1*2
+    a,4. c8 h e, e'[ d]~
+    d c4 d16[ e] a,8[ h16 c] d4~ %15
+    d8 c4 h8 c4 c8 e
+    d h h([ d)] h \once \tieDashed e~ e[ h]
+    c4 a8 d( g,[ c a g])
+    g c f4~ f8 e4 d8
+    c4 a d8 c4 d8 %20
+    g,[ c] d4 e8 c([ d e)]
+    e \once \tieDashed e~ e[ a,] e'4 r
+    r a,8 c h e, e'[ d]~
+    d[ c16 h] c8[ d16 e] a,4 f'
+    e8 e([ f d] e[ c16 h] a4) %25
+    h r e4. f8
+    e d e8[ a,] gis[ c h a]
+    gis[ a] h4 e4. e8
+    d c h([ c)] h4 r8 \once \tieDashed e~
+    e4 d8 c \tempoDonaB c4 h %30
+    h1
+    cis\fermata \bar "|." %32 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %4
+  De -- i, qui tol -- lis pec -- ca -- ta %5
+  mun -- di: Mi -- se --
+  re -- re no -- bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+
+  Do -- na no -- bis pa -- %14
+  _ _ _ _ %15
+  _ _ cem, do -- na
+  no -- bis pa -- cem, pa --
+  _ cem, pa --
+  cem, pa -- _ _ _
+  _ cem, pa -- _ _ %20
+  _ _ cem, pa --
+  cem, pa -- cem,
+  do -- na no -- bis pa --
+  _ _ _
+  cem, pa -- %25
+  cem, do -- na
+  no -- bis pa -- _
+  _ cem, do -- na
+  no -- bis pa -- cem, pa --
+  _ cem, pa -- _ %30
+  _
+  cem. %32 finis
+}

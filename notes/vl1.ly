@@ -76,7 +76,7 @@ KyrieViolinoI = {
     h'8. e,16 e8-! e-! r e-! r e-! %70
     r e << { \oneVoice a2 } \\ { s4 \tempoKyrieC s } >> a4~
     a h h4.\trill a8
-    a1\fermata \bar "|."
+    a1\fermata \bar "|." %73 finis
   }
 }
 
@@ -305,5 +305,44 @@ SanctusViolinoI = {
     r g,16 fis g8 h r fis16 e fis8 d' %45
     r f,16 e f8 a r e16 d e8 e'
     e,2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    c'2\p^\tenuto d
+    h c
+    d4 e f8 g a g
+    f e d8. e16 e4 h8 h
+    c4 c8 c a h16 c d8. d16 %5
+    d8 c g4 a4. g16 a
+    h8 c c8.^\critnote h16 c4 \tempoAgnusB a'8\f e
+    h' h h e,16 e gis8 gis h a
+    a a d,8. d16 e4 \tempoAgnusC e
+    e e a4. a8 \noBreak %10
+    gis2 r\fermata \bar "||"
+    \tempoDona a,4. c8 h e, e' d~ \noBreak
+    d c4 d16 e a,8 h16 c d4~
+    d8 c16 h c8 e e,4 r8 a
+    h c h4 a r8 d %15
+    h a4 h8 a a, r4
+    r8 e''4 f8 e a, a' g!~
+    g f4 e16 d e4 d8.\trill c16
+    c4 r8 f c'4. h8
+    c c, r h'16 c h8 g c h %20
+    c c, d g g16 a g a h8 e,
+    h' c16 h a8 d h8. a16 gis8 a
+    gis16 e e e e e e e h' h h h h c h a
+    gis8 a e8. e16 e8 a a, a'
+    e16 d c e d d h' h e,8 e, a' a, %25
+    gis16 e gis h e h gis e gis e gis h e h gis e
+    gis e gis h e h gis e gis'8 a e8. e16
+    e8-! a-! e-! a-! e8. e16 e8 e
+    h'8. e,16 e8-! e-! r e-! r e-!
+    r e << { \oneVoice a2 } \\ { s4 \tempoDonaB s } >> a4~ %30
+    a h h4.\trill a8
+    a1\fermata \bar "|." %32 finis
   }
 }

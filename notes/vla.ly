@@ -294,3 +294,39 @@ SanctusViola = {
     e2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoAgnus
+    R1*3
+    r2 r4 e8\p d
+    c4 c8 a d d16 d h8 g %5
+    c c e,4 f4. f8
+    g a f-\critnote g c,4 \tempoAgnusB c''8\f a
+    gis e gis a e4 e8 c
+    f d h8. h16 a4 \tempoAgnusC a'
+    g!4. g8 f2 \noBreak %10
+    e r\fermata \bar "||"
+    \tempoDona R1*2
+    a,4. c8 h e, e' d~
+    d c4 d16 e a,8 h16 c d4~ %15
+    d8 c4 h8 c4 c8 e
+    d h h d h e e h
+    c4 a8 d g, c a g
+    g c f a g4 f
+    g f8. a16 g8 g a f %20
+    g e16 e a8 d, e4 gis8 a
+    h a a4 gis e8 f!
+    e a, a' g~ g16 fis e fis gis8 a
+    e4 e r8 a a4
+    gis8 a a f e4. d8 %25
+    e4 r r e~
+    e e e4. f8
+    e d e a, gis c h e
+    gis a e4 r8 gis gis r
+    r a a g \tempoDonaB fis4 h8 fis
+    e2. e4
+    e1\fermata \bar "|." %32 finis
+  }
+}

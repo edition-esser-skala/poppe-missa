@@ -594,3 +594,77 @@ SanctusSopranoLyrics = \lyricmode {
   mi --
   ni. %47 finis
 }
+
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr e4.\pE^\solo e8 a4 a8 h
+    gis4 gis8 e a h c4
+    h e8. e16 e([ d)] d8 d e
+    f e d4 e h8 h
+    c4 c8 c a a16 a d8. d16 %5
+    d8 c g4( a4.) a8
+    h c c8.([ h16)] c4 \tempoAgnusB \mvTr a8\fE^\tutti a
+    h4 h8 a gis4 gis8 a
+    a a a8.([ gis16)] a4 \tempoAgnusC c
+    h4. h8 a2 \noBreak %10
+    gis r\fermata \bar "||"
+    \tempoDona a4. c8 h e, e'[ d]~ \noBreak
+    d c4 d16[ e] a,8[ h16 c] d4~
+    d8[ c16 h] c8[ e] e4 r8 a,(
+    h[ c] h4) a r8 d( %15
+    h a4 h8) a4 r
+    r8 e'4 f8 e a, a'[ g!]~
+    g f4 e16[ d] e4 d8.[ c16]
+    c4 r r8 c f4~
+    f8 e4 d8 h[ c a h] %20
+    c4. h8 c e d([ c)]
+    e4 a,8. a16 h8 e, e'[ d]~
+    d[ c16 h] c8[ d16 e] d8[ e h d]
+    h a a4 c8 \once \tieDashed d~ d4
+    d8 c4 h \once \tieDashed a8~ a4 %25
+    gis e'4. f8 e d
+    e[ a, gis c] h[ a gis a]
+    h d h4 h8 r e a,
+    h c16([ d)] e8([ a,)] gis4 r8 gis
+    a2~ \tempoDonaB a~ %30
+    a2. gis4
+    a1\fermata \bar "|." %32 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun --
+  di: Mi -- se -- re -- re, mi -- se --
+  re -- re no -- bis. A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %5
+  mun -- di: Mi -- se --
+  re -- re no -- bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+  Do -- na no -- bis pa --
+  _ _ _ _
+  _ cem, pa --
+  cem, pa -- %15
+  cem,
+  do -- na no -- bis pa --
+  _ _ _ _
+  cem, pa -- _
+  _ _ _ %20
+  _ _ _ cem, pa --
+  cem, do -- na no -- bis pa --
+  _ _
+  _ cem, pa -- cem, pa --
+  cem, pa -- _ _ %25
+  cem, do -- na no -- bis
+  pa -- _
+  _ cem, pa -- cem, do -- na
+  no -- bis pa -- cem, pa --
+  _ %30
+  _
+  cem. %32 finis
+}

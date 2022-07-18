@@ -55,7 +55,7 @@ KyrieAlto = {
     gis2 r r \noBreak
     R1.\fermata \bar "||"
     \time 4/4 \tempoKyrieB \newSpacingSection
-      r2 \mvTr e4.\fE^\tutti f8
+      r2 \mvTr e4.\fE^\tutti f8 \noBreak
     e a, a'([ g)] g f f8[ e16 d]
     e8[ fis16 gis] a4. gis16[ fis] gis8[ a] %55
     gis a e([ g?)] e a a4(
@@ -568,4 +568,75 @@ SanctusAltoLyrics = \lyricmode {
   ne, in no -- mi -- %45
   ne __ Do -- mi --
   ni. %47 finis
+}
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1*2
+    r4 \mvTr h'8\pE^\solo h a a a8. a16
+    a8 gis a4 gis gis8 gis
+    a4 a8 a f f16 f f8. f16 %5
+    f8 e g2 f4
+    f8 e d4 c \tempoAgnusB \mvTr e8\fE^\tutti e
+    e^\critnote e e4 e8 e e4
+    c8 f d4 c \tempoAgnusC e
+    e e f2 \noBreak %10
+    h, r\fermata \bar "||"
+    \tempoDona r2 e4. f8 \noBreak
+    e a, a' g4 f e16[ d]
+    e8[ fis16 gis] a4. gis16[ fis] gis8[ a]
+    gis a( e[ g?]) e a( a4 %15
+    g8[ e] f4) e8 e( a4)
+    gis r8 a( gis[ a)] e r
+    a8. a16 a8 a g4( f)
+    c r8 a'( g4 f)
+    g f8. a16 g8 g f4 %20
+    e8 e([ a g)] g g([ gis a)]
+    h \once \tieDashed a~ a4 gis e8 f!
+    e a, a'[ g]~ g16[ fis] e([ fis)] gis8([ a)]
+    e2 r8 \once \tieDashed a~ a4
+    gis8[ a] a f( e4. d8) %25
+    e4 r r e~
+    e e e4. f8
+    e d e[ a,] gis[ c h e]
+    gis[ a] e4 e r8 h'
+    a2. fis4 %30
+    e1
+    e\fermata \bar "|." %32 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  Mi -- se -- re -- re, mi -- se -- %3
+  re -- re no -- bis. A -- gnus
+  De -- i, qui tol -- lis pec -- ca -- ta %5
+  mun -- di: Mi -- se --
+  re -- re no -- bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- %10
+  di:
+  Do -- na
+  no -- bis pa -- _ _ _
+  _ _ _ _
+  cem, pa -- cem, pa -- %15
+  cem, pa --
+  cem, pa -- cem,
+  do -- na no -- bis pa --
+  cem, pa --
+  cem, do -- na no -- bis pa -- %20
+  cem, pa -- cem, pa --
+  cem, pa -- cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem, pa --
+  _ cem, pa -- %25
+  cem, pa --
+  cem, do -- na
+  no -- bis pa -- _
+  _ _ cem, pa --
+  _ _ %30
+  _
+  cem. %32 finis
 }

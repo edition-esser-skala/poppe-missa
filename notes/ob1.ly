@@ -260,3 +260,37 @@ SanctusOboeI = {
     gis2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    R1*6 %6
+    r2 r4 \tempoAgnusB a'8\fE a
+    h4 h8 a gis4 gis8 a
+    a a a8. gis16 a4 \tempoAgnusC c
+    h4. h8 a2 \noBreak %10
+    gis r\fermata \bar "||"
+    \tempoDona a4. c8 h e, e' d~ \noBreak
+    d c4 d16 e a,8 h16 c d4~
+    d8 c16 h c8 e e4 r8 a,
+    h c h4 a r8 d %15
+    h a4 h8 a4 r
+    r8 e'4 f8 e a, a' g!~
+    g f4 e16 d e4 d8.\trill c16
+    c4 r8 f c'4. h8
+    c e,4 d8 h c a h %20
+    c4. h8 c e d c
+    e4 a,8. a16 h8 e, e' \once \tieDashed d~
+    d c16 h c8 d16 e d8 e h d
+    h a a4 c8 d d4
+    d8 c4 h a8 a4 %25
+    h e4. f8 e d
+    e4. e8 e4 r8 e
+    h d h4 h8 r e a,
+    h c16 d e8 a, gis4 r8 gis
+    a2~ \tempoDonaB a~ %30
+    a2. gis4
+    a1\fermata \bar "|." %32 finis
+  }
+}

@@ -58,7 +58,7 @@ KyrieViolinoII = {
     r4 e e2. d4 \noBreak
     \appoggiatura d e1.\fermata \bar "||"
     \time 4/4 \tempoKyrieB \newSpacingSection
-      r2 e,4.\fE f8
+      r2 e,4.\fE f8 \noBreak
     e a, a' g4 f e16 d
     e8 fis16 gis a4. gis16 fis gis8 a %55
     gis a e g? e a a4
@@ -307,5 +307,44 @@ SanctusViolinoII = {
     e'8 e, r g16 h a8 d, r a'16 fis %45
     dis'?8 dis,? r f16 a e8 h' r e
     e,2 r\fermata \markOsannaDaCapo \bar "||" %47 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoAgnus
+    a'2.\p^\tenuto f4~
+    f e2.
+    f4 g a8 g f e
+    a gis a8. gis16 gis4 gis8 gis
+    a4 a8 a f f16 f f8. f16 %5
+    f8 e g2 f4~
+    f8 e d4 c \tempoAgnusB e'8\f c
+    e e e c16 c e8 e e e
+    a, d d8. h16 c4 \tempoAgnusC c
+    h e,8 e' f4. f8 \noBreak %10
+    h,2 r\fermata \bar "||"
+    \tempoDona r2 e,4. f8 \noBreak
+    e a, a' g4 f e16 d
+    e8 fis16 gis a4. gis16 fis gis8 a
+    gis a e g? e a a4 %15
+    g8 e f f e e a4
+    gis r8 a gis a e r
+    a8. a16 a8 a g4 f
+    c r r8 c' \once \tieDashed f4~
+    f8 e4 d8 d e f8. f16 %20
+    e8 e16 e d8. c16 c8 e d c16 c
+    e4 a,8. a16 h8 e, e' d~
+    d c16 h c8 d16 e d8 e e a,
+    h c a8. a16 c8 d d8. d16
+    d8 c c d16 d e8. e16 e8 f %25
+    h,4 e4. f8 e d
+    e4. e8 e4 r8 e
+    h d h8. h16 h8 a h a16 a
+    h8 c16 d e8 a, r h h r
+    r e d c \tempoDonaB c a fis' h %30
+    h4 a2 gis8.\trill a16
+    a1\fermata \bar "|." %32 finis
   }
 }
